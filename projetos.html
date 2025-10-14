@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projetos Sociais — Ortosíntese</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html"><img src="images/logo.svg" alt="Logo Ortosíntese" class="logo"></a>
+      <nav aria-label="menu principal">
+        <ul class="nav">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html" aria-current="page">Projetos Sociais</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Projetos Sociais</h1>
+    <p>Conheça nossas iniciativas de voluntariado, reabilitação e doação de próteses.</p>
+
+    <section aria-labelledby="voluntariado">
+      <h2 id="voluntariado">Voluntariado</h2>
+      <p>Descrição das atividades de voluntariado: acompanhamento, reabilitação e suporte técnico.</p>
+      <img src="images/projetos-thumb1.webp" alt="Voluntários em ação" class="responsive">
+    </section>
+
+    <section aria-labelledby="como-doar">
+      <h2 id="como-doar">Como doar</h2>
+      <p>Você pode ajudar com doações financeiras, materiais ou voluntariado. Entre em contato pelo e-mail <a href="mailto:doacoes@ortosintese.com.br">doacoes@ortosintese.com.br</a>.</p>
+
+      <ul>
+        <li>Doações financeiras: transferência/PIX — coloque instruções aqui.</li>
+        <li>Doações de peças e equipamentos: avaliar estado e enviar para nossa unidade.</li>
+        <li>Seja voluntário: envie seu currículo e disponibilidade.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> Ortosíntese</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
