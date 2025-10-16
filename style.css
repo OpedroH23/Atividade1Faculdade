@@ -15,11 +15,11 @@ body{
 }
 .container{max-width:var(--max-width);margin:0 auto;padding:1rem}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:var(--gap)}
-.logo{height:48px}
+.logo{height:200px}
 .nav{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
 .nav a{text-decoration:none;color:var(--text)}
 .hero{display:grid;grid-template-columns:1fr;gap:1rem;align-items:center;padding:1rem 0}
-.hero-img{width:100%;height:auto;border-radius:8px}
+.hero-img{width:50%;height:auto;border-radius:8px;padding-left: 40px;}
 .about img.responsive{max-width:100%;height:auto;border-radius:6px;margin-top:0.5rem}
 fieldset{border:1px solid #e3e3e3;padding:1rem;border-radius:6px;margin-bottom:1rem}
 legend{font-weight:600}
